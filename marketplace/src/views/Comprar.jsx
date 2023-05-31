@@ -29,7 +29,7 @@ const Comprar = () => {
         if (payloadCompra.id_usuario_compra === payloadCompra.id_usuario_venta) {
             alert("No puedes comprar tu producto en venta 😤")
         } else {
-            const urlServer = "https://54.147.207.191";
+            const urlServer = "http://54.147.207.191";
             const endpoint = "/compra_venta";
             const token = localStorage.getItem("token")
             try {

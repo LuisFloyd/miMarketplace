@@ -11,7 +11,7 @@ const GaleriaMisVentas = () => {
     const [totalProductos, setTotalProductos] = useState();
 
     const getDataProductos = async () => {
-        const urlServer = "https://54.147.207.191/compra_venta/";
+        const urlServer = "http://54.147.207.191/compra_venta/";
         const endpoint = loginContext.id;
         const token = localStorage.getItem("token");
 
