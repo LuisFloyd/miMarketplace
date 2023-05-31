@@ -54,7 +54,7 @@ const SubirProducto = () => {
   //CONSULTAs BD
 
   const consultaApiComunas = async () => {
-    const endpoint = "http://localhost:3001/comunas";
+    const endpoint = "http://54.147.207.191/comunas";
     const response = await fetch(endpoint);
     const data = await response.json();
     /* console.log("dataaa") */
@@ -68,7 +68,7 @@ const SubirProducto = () => {
   };
 
   const consultaApiCategorias = async () => {
-    const endpoint2 = "http://localhost:3001/categorias";
+    const endpoint2 = "http://54.147.207.191/categorias";
     const response2 = await fetch(endpoint2);
     const data2 = await response2.json();
     /* console.log("dataaa") */
@@ -85,7 +85,7 @@ const SubirProducto = () => {
   //funcion con POST al hacer click en "enviar"
   const registrarProducto = async (e) => {
     e.preventDefault();
-    const urlServer = "http://localhost:3001";
+    const urlServer = "http://54.147.207.191";
     const endpoint = "/productos";
     const token = localStorage.getItem("token")
     try {

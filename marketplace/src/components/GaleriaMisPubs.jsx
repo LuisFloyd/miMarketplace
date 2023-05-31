@@ -16,7 +16,7 @@ const GaleriaMisPub = () => {
     //endpoint con filtros   
 
     const getDataProductos = async () => {
-        const urlServer = "http://localhost:3001";
+        const urlServer = "http://54.147.207.191";
         const endpoint = "/misPublicaciones";
         const token = localStorage.getItem("token");
 

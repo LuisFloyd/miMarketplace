@@ -12,7 +12,7 @@ const Navbar = () => {
 
   //llamo api por datos de usuario//
   const getUsuarioData = async () => {
-    const urlServer = "http://localhost:3001";
+    const urlServer = "http://54.147.207.191";
     const endpoint = "/usuarios";
     const token = localStorage.getItem("token");
 

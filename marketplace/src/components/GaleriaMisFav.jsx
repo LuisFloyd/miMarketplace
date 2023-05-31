@@ -13,7 +13,7 @@ const GaleriaMisPub = () => {
     const [totalProductos, setTotalProductos] = useState();
 
     const getDataProductos = async () => {
-        const urlServer = "http://localhost:3001/favoritos/";
+        const urlServer = "http://54.147.207.191/favoritos/";
         const endpoint = loginContext.id;
         const token = localStorage.getItem("token");
 
