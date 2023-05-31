@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/miMarketplace/static/css/main.5dd9829f.css",
-    "main.js": "/miMarketplace/static/js/main.268934dd.js",
-    "index.html": "/miMarketplace/index.html",
-    "main.5dd9829f.css.map": "/miMarketplace/static/css/main.5dd9829f.css.map",
-    "main.268934dd.js.map": "/miMarketplace/static/js/main.268934dd.js.map"
+    "main.css": "/static/css/main.5dd9829f.css",
+    "main.js": "/static/js/main.268934dd.js",
+    "index.html": "/index.html",
+    "main.5dd9829f.css.map": "/static/css/main.5dd9829f.css.map",
+    "main.268934dd.js.map": "/static/js/main.268934dd.js.map"
   },
   "entrypoints": [
     "static/css/main.5dd9829f.css",
