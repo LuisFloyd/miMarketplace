@@ -18,7 +18,7 @@ const ProductDetail = () => {
     const token = localStorage.getItem("token");
     const navigate = useNavigate();
 
-    const url = "http://54.147.207.191";
+    const url = "http://localhost:3001";
     const endpoint = "/productos/producto";
 
     const getDataProductoSeleccionado = async () => {
@@ -36,7 +36,7 @@ const ProductDetail = () => {
     };
 
     const agregarFavorito = async (payload) => {
-        const urlServer = "http://54.147.207.191";
+        const urlServer = "http://localhost:3001";
         const endpoint = "/favoritos";
         try {
             await axios.post(urlServer + endpoint, payload, {
@@ -49,7 +49,7 @@ const ProductDetail = () => {
     };
 
     const quitarFavorito = async (payload) => {
-        const urlServer = "http://54.147.207.191";
+        const urlServer = "http://localhost:3001";
         const endpoint = "/favoritos";
         try {
             await axios.delete(urlServer + endpoint, {

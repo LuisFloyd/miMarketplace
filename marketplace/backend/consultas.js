@@ -1,11 +1,21 @@
 const { Pool } = require('pg')
+
+// const pool = new Pool({
+//     host: 'localhost',
+//     user: 'postgres',
+//     password: 'pgadmin2020',
+//     database: 'marketplace',
+//     allowExitOnIdle: true
+// })
+
 const pool = new Pool({
-    host: 'localhost',
-    user: 'postgres',
-    password: 'pgadmin2020',
-    database: 'marketplace',
+    host: 'instanciadb.cqwzkon7o3pu.sa-east-1.rds.amazonaws.com',
+    user: 'postgres11',
+    password: 'dbLATAM12',
+    database: 'Marketplace1',
     allowExitOnIdle: true
 })
+
 
 const bcrypt = require('bcryptjs')
 const format = require('pg-format')

@@ -20,7 +20,7 @@ const Card = ({ imagen, nombre, id, favorito, precio }) => {
     const token = localStorage.getItem("token");
 
     const agregarFavorito = async (payload) => {
-        const urlServer = "http://54.147.207.191";
+        const urlServer = "http://localhost:3001";
         const endpoint = "/favoritos";
         try {
             /* console.log('token :>> ', token); */
@@ -34,7 +34,7 @@ const Card = ({ imagen, nombre, id, favorito, precio }) => {
     };
 
     const quitarFavorito = async () => {
-        const urlServer = "http://54.147.207.191";
+        const urlServer = "http://localhost:3001";
         const endpoint = "/favoritos";
         try {
             /* console.log('token :>> ', token); */

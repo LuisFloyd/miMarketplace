@@ -26,7 +26,7 @@ export default function LoginUsuario() {
   };
 
   const iniciarSesion = async () => {
-    const urlServer = "http://54.147.207.191";
+    const urlServer = "http://localhost:3001";
     const endpoint = "/login";
     const { email, clave } = datosLogin;
     try {

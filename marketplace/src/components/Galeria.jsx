@@ -12,7 +12,7 @@ const Galeria = () => {
     const [page, setPage] = useState(1);
     const [totalProductos, setTotalProductos] = useState();
 
-    const url = "http://54.147.207.191";
+    const url = "http://localhost:3001";
     const endpoint = "/productos";
 
     const getTotalProducts = async () => {

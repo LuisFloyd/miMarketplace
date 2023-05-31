@@ -51,7 +51,7 @@ const RegistroUsuario = () => {
   const registrarUsuario = async (e) => {
     e.preventDefault();
     /* console.log(usuario); */
-    const urlServer = "http://54.147.207.191";
+    const urlServer = "http://localhost:3001";
     const endpoint = "/usuarios";
     try {
       await axios.post(urlServer + endpoint, usuario);
