@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/miMarketplace/static/css/main.5dd9829f.css",
-    "main.js": "/miMarketplace/static/js/main.4edaa722.js",
+    "main.js": "/miMarketplace/static/js/main.d29fae85.js",
     "index.html": "/miMarketplace/index.html",
     "main.5dd9829f.css.map": "/miMarketplace/static/css/main.5dd9829f.css.map",
-    "main.4edaa722.js.map": "/miMarketplace/static/js/main.4edaa722.js.map"
+    "main.d29fae85.js.map": "/miMarketplace/static/js/main.d29fae85.js.map"
   },
   "entrypoints": [
     "static/css/main.5dd9829f.css",
-    "static/js/main.4edaa722.js"
+    "static/js/main.d29fae85.js"
   ]
 }
