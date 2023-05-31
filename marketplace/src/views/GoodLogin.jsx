@@ -8,7 +8,7 @@ export default function Good_login() {
 
   //llamo api por datos de usuario//  
   const getUsuarioData = async () => {
-    const urlServer = "http://54.147.207.191";
+    const urlServer = "https://54.147.207.191";
     const endpoint = "/usuarios";
     const token = localStorage.getItem("token");
 

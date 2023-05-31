@@ -15,7 +15,7 @@ const PerfilUsuario = () => {
   // put contraseña:
   const CambiarPass = async (e) => {
     e.preventDefault();
-    const urlServer = "http://54.147.207.191";
+    const urlServer = "https://54.147.207.191";
     const endpoint = "/usuario/modificaClave/" + loginContext.id;
     const token = localStorage.getItem("token")
     try {
