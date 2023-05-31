@@ -265,7 +265,7 @@ const SubirProducto = () => {
             type="submit"
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = "https://luisfloyd.github.io/miMarketplace/";
+              window.location.href = "/MisDatos";
             }}
             className="btn btn-outline-dark container me-1"
           >
