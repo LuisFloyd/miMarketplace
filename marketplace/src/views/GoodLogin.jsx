@@ -20,7 +20,7 @@ export default function Good_login() {
       //aca se sobrescriben los estados  & context//    
       setLoginContext(data);
       setUsuarioLocal(data);
-      window.location.href = "github.io/miMarketplace/"
+      window.location.href = "https://luisfloyd.github.io/miMarketplace/"
     } catch ({ response: { data: message } }) {
       alert(message + " 🙁");
       console.log(message);
